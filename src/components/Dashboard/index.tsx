@@ -1,9 +1,9 @@
-import { Summary } from "components/Summary";
-import { TransactionsTable } from "components/TransactionsTable";
-import { Container } from "./style";
+import { Summary } from 'components/Summary'
+import { TransactionsTable } from 'components/TransactionsTable'
+import { Container } from './styles'
 
-export function Dashboard(){
-  return(
+export function Dashboard() {
+  return (
     <Container>
       <Summary />
       <TransactionsTable />
