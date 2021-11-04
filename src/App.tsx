@@ -1,12 +1,13 @@
-import React from 'react'
+import { GlobalStyle } from 'styles/global'
+import { Header } from 'components/Header'
+import { Dashboard } from 'components/Dashboard'
 
-
-function App() {
+export function App() {
   return (
-    <div className="App">
-     <h1>Olá mundo</h1>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+      <GlobalStyle />
+    </>
   )
 }
-
-export default App
